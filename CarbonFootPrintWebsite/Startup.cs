@@ -31,6 +31,13 @@ namespace CarbonFootPrintWebsite
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
+                try
+                {
+                    app.UseBrowserLink();
+                }
+                catch {
+                    System.Console.WriteLine("NO Browser Link");
+                }
             }
             else
             {
