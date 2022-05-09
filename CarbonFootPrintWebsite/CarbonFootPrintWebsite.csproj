@@ -5,6 +5,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Include="wwwroot\media\carblogo.png" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.Extensions" Version="6.0.4" />
     <PackageReference Include="Microsoft.CodeAnalysis.Razor" Version="6.0.4" />
     <PackageReference Include="Microsoft.Extensions.DependencyModel" Version="6.0.0" />
