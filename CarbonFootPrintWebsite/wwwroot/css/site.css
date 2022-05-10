@@ -120,3 +120,7 @@ a{
 .navbar-toggler-icon{
     filter: invert(1);
 }
+
+.navbar_padder{
+    margin-top: 4vh;
+}
