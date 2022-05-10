@@ -18,6 +18,14 @@
     background-color: lightcyan;
 }
 
+
+#navbarDropdown {
+    color: white;
+}
+    #navbarDropdown:hover {
+        color: #034007;
+    }
+
 .nav-color{
     color: white;
     font-weight: 700;
