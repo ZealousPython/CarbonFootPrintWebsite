@@ -148,3 +148,4 @@ P:\HTML Projects\CarbonFootPrintWebsite\CarbonFootPrintWebsite\obj\Debug\netcore
 P:\HTML Projects\CarbonFootPrintWebsite\CarbonFootPrintWebsite\obj\Debug\netcoreapp3.1\CarbonFootPrintWebsite.dll
 P:\HTML Projects\CarbonFootPrintWebsite\CarbonFootPrintWebsite\obj\Debug\netcoreapp3.1\CarbonFootPrintWebsite.pdb
 P:\HTML Projects\CarbonFootPrintWebsite\CarbonFootPrintWebsite\obj\Debug\netcoreapp3.1\CarbonFootPrintWebsite.genruntimeconfig.cache
+P:\HTML Projects\CarbonFootPrintWebsite\CarbonFootPrintWebsite\obj\Debug\netcoreapp3.1\Razor\Pages\Helping.cshtml.g.cs
