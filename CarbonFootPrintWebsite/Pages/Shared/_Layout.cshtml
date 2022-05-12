@@ -15,7 +15,7 @@
     <header>
         <nav class="navbar navbar-expand-lg navbar-light fixed-top custom_nav">
             <div class="container-fluid">
-                <a class="nav-color" href="Privacy.html"><img src="~/media/carblogo.png" height="50px" class="logo-bg">CarbonPrints</a>
+                <a class="nav-color" asp-area="" asp-page="/Index"><img src="~/media/carblogo.png" height="50px" class="logo-bg">CarbonPrints</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -28,10 +28,9 @@
                                 Welcome
                             </a>
                             <ul class="dropdown-menu custom_nav" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item nav-color" href="#">What Is Your Carbon Footprint?</a></li>
-                                <li><a class="dropdown-item nav-color" href="#">Another action</a></li>
-                                <li><hr class="dropdown-divider"></li>
-                                <li><a class="dropdown-item nav-color" href="#">Something else here</a></li>
+                                <li><a class="dropdown-item nav-color" asp-area="" asp-page="/Index#what">What Is Your Carbon Footprint?</a></li>
+                                <li><a class="dropdown-item nav-color" asp-area="" asp-page="/Index#climate">Climate Change</a></li>
+                                <li><a class="dropdown-item nav-color" asp-area="" asp-page="/Index#reduce">Reducing your footprint</a></li>
                             </ul>
                         </li>
                         <li class="nav-item dropdown nav-color">
@@ -60,36 +59,7 @@
     <div id="footer">
         <div class="container">
             <div class="footer_links">
-                <div class="row">
-                    <div class="col-lg-4 text-center">
-                        <ul class="list-style" style="list-style:none;">
-                            <li><h2 class="sub-title">EFCTS Sites</h2></li>
-                            <li><a href="https://www.eastland-fairfield.com/" target="_blank">Main Site</a></li>
-                            <li><a href="https://www.eastlandfairfield.com/Newsletters.aspx" target="_blank">Newsletter</a></li>
-                            <li><a href="https://www.eastlandfairfield.com/ProgramsCourses.aspx" target="_blank">Careers</a></li>
-                            <li><a href="https://www.eastlandfairfield.com/BusinessPartnerships.aspx" target="_blank">Business Partners</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-lg-4 text-center">
-                        <ul class="list-style" style="list-style:none;">
-                            <li><h2 class="sub-title">Contact Us</h2></li>
-                            <li><a href="https://www.eastland-fairfield.com/ContactUs.aspx" target="_blank">Contact </a></li>
-                            <li><a href="https://www.eastlandfairfield.com/FAQs1.aspx" target="_blank">Support</a></li>
-                            <li><a href="https://www.eastlandfairfield.com/Tours.aspx" target="_blank">Tours</a></li>
-                            <li><a href="https://www.eastlandfairfield.com/Admissions.aspx" target="_blank">Admissions</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-lg-4 text-center">
-                        <ul class="list-style" style="list-style:none;">
-                            <li><h2 class="sub-title">Social Media</h2></li>
-                            <li><a href="https://www.instagram.com/efctspix" target="_blank">Instagram</a></li>
-                            <li><a href="https://www.facebook.com/efcts" target="_blank">Facebook</a></li>
-                            <li><a href="https://www.youtube.com/c/EFCTS" target="_blank">Youtube</a></li>
-                            <li><a href="https://www.twitter.com/EFCTS" target="_blank">Twitter</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
+                
             <div class="row">
                 <div class="col-lg-6 col-xs-12">
                     <a class="footer-color" href="../HTML/landing.html"><img src="~/media/carblogo.png" width="50px" class="logo logo-bg">CarbonPrints</a>

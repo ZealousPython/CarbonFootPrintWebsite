@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "P:\\HTML Projects\\CarbonFootPrintWebsite\\CarbonFootPrintWebsite\\CarbonFootPrintWebsite.csproj": {}
+    "P:\\HTML\\CarbonFootPrintWebsite\\CarbonFootPrintWebsite\\CarbonFootPrintWebsite.csproj": {}
   },
   "projects": {
-    "P:\\HTML Projects\\CarbonFootPrintWebsite\\CarbonFootPrintWebsite\\CarbonFootPrintWebsite.csproj": {
+    "P:\\HTML\\CarbonFootPrintWebsite\\CarbonFootPrintWebsite\\CarbonFootPrintWebsite.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "P:\\HTML Projects\\CarbonFootPrintWebsite\\CarbonFootPrintWebsite\\CarbonFootPrintWebsite.csproj",
+        "projectUniqueName": "P:\\HTML\\CarbonFootPrintWebsite\\CarbonFootPrintWebsite\\CarbonFootPrintWebsite.csproj",
         "projectName": "CarbonFootPrintWebsite",
-        "projectPath": "P:\\HTML Projects\\CarbonFootPrintWebsite\\CarbonFootPrintWebsite\\CarbonFootPrintWebsite.csproj",
-        "packagesPath": "C:\\Users\\PS23EDyckes\\.nuget\\packages\\",
-        "outputPath": "P:\\HTML Projects\\CarbonFootPrintWebsite\\CarbonFootPrintWebsite\\obj\\",
+        "projectPath": "P:\\HTML\\CarbonFootPrintWebsite\\CarbonFootPrintWebsite\\CarbonFootPrintWebsite.csproj",
+        "packagesPath": "C:\\Users\\ps23aofford\\.nuget\\packages\\",
+        "outputPath": "P:\\HTML\\CarbonFootPrintWebsite\\CarbonFootPrintWebsite\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\PS23EDyckes\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ps23aofford\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],

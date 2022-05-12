@@ -4,7 +4,7 @@
     ViewData["Title"] = "Home page";
 }
 <div>
-    <h1 class="navbar_padder">Welcome</h1>
+    <div class="navbar_padder"></div>
     <!--Section Template-->
     <!--
         <div class="container">
@@ -16,34 +16,50 @@
         </div>
     -->
     <!--Section #1-->
-    <div class="container">
+    <div class="container content first">
+        <a name="what" id="what"></a>
         <h2 class="section_title">What Is Your Carbon Footprint?</h2>
-
+        <div class="hr"></div>
         <div>
             <p>
                 A carbon footprint is the amount of carbon dioxide a particular person or group put into the atmosphere as a result of
                 their actions. Each person's average carbon footprint is about 16 tons if they live in the United States which is one of
-                the highest world wide rates. Carbon footprint is bad because it is the main proponent of climate change caused by humans.
+                the highest world wide rates. Having a high carbon footprint has a negative impact on climate change.
             </p>
         </div>
     </div>
 
+    <div class="container content">
+        <a name="climate" id="climate"></a>
+        <h2 class="section_title">The Dangers of Climate Change</h2>
+        <div class="hr"></div>
+        <div>
+            <p>
+                Climate change affects many things in the world from melting ice in the sea to making droughts and heat waves more common. Furthermore climate change
+                will cause hurricanes to become stronger and sea levels will rise with a predicted rise of 1-8 feet by 2100. This will increase the risk of flooding most
+                places and will destroy some coastal areas. This all will happen if humanity as a whole does not change the amount of CO2 being produced.
+            </p>
+        </div>
+        <div class="row">
+            <div class="col-md-4"><img class="img-fluid" src="https://climate.nasa.gov/internal_resources/492"></div>
+            <div class="col-md-4"><img class="img-fluid" src="https://climate.nasa.gov/internal_resources/494"></div>
+            <div class="col-md-4"><img class="img-fluid" src="https://climate.nasa.gov/internal_resources/495"></div>
+        </div>
+    </div>
+    <div class="container content">
+        <a name="reduce" id="reduce"></a>
+        <h2 class="section_title">Reducing Your Carbon Footprint</h2>
+        <div class="hr"></div>
+        <div>
+            <p>
+                Although the future might seem bleak due to the effects of climate change you can still make a difference. Taking steps to reduce your carbon
+                footprint can help fight against climate change and in some cases even save you money. Throughout this site there are various resources on how
+                to reduce your carbon footprint in different areas of your life. <span><a asp-area="" asp-page="/Helping">Go and get started learning how to reduce your carbon footprint.</a></span>
+
+            </p>
+        </div>
+    </div>
     <!--Section #2-->
-    <div class="container">
-        <h2 class="section_title">What Are Greenhouse Gases?</h2>
 
-        <div>
-
-        </div>
-    </div>
-
-    <!--Section #3-->
-    <div class="container">
-        <h2 class="section_title">Section Title</h2>
-
-        <div>
-
-        </div>
-    </div>
 </div>
     
