@@ -1,5 +1,7 @@
 ﻿
-
+* {
+    font-family:monospace;
+}
 .custom_nav{
     background-color: #03a44e;
     
@@ -122,5 +124,25 @@ a{
 }
 
 .navbar_padder{
-    margin-top: 4vh;
+    margin-bottom: 10vh;
+}
+
+.content h2{
+    font-weight:900;
+    font-size:50px;
+}
+.content p {
+    font-size: 28px;
+}
+.hr {
+    margin-top:2rem;
+    margin-bottom:2rem;
+    border: 5px solid black;
+}
+.content {
+    margin-top: 8rem;
+    margin-bottom: 8rem;
+}
+.first {
+    margin-top: 20rem;
 }
