@@ -28,7 +28,7 @@ function check_if_in_view() {
                 opacity = window_middle / elementMiddle
             }
 
-            if (opacity >= (1 - 0.15) && opacity <= (1 + 0.15)) {
+            if (opacity >= (1 - 0.3) && opacity <= (1 + 0.3)) {
                 opacity = 1
             }
             if (opacity < 1) {
