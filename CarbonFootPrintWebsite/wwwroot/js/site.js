@@ -30,6 +30,7 @@ function check_if_in_view() {
 
             if (element_bottom_position < window_middle && element_top_position < window_top_position) {
                 opacity = opacityBottom * opacityBottom
+
             }
             if (element_bottom_position > window_bottom_position && element_top_position > window_middle) {
                 opacity = opacityTop * opacityTop
