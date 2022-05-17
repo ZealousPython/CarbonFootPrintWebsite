@@ -5,7 +5,14 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Remove="wwwroot\Media\Thinking_Bubble.png" />
+    <Content Remove="wwwroot\Media\Travel.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
     <None Include="wwwroot\media\carblogo.png" />
+    <None Include="wwwroot\Media\Thinking_Bubble.png" />
+    <None Include="wwwroot\Media\Travel.jpg" />
   </ItemGroup>
 
   <ItemGroup>
