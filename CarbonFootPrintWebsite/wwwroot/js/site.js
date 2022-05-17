@@ -21,27 +21,25 @@ function check_if_in_view() {
         //check to see if this current container is within viewport
         if ((element_bottom_position >= window_top_position) &&
             (element_top_position <= window_bottom_position)) {
-            let elementMiddle = (element_bottom_position + element_top_position) / 2 //+ (window_height / 5)
+            
             let window_middle = (window_top_position + window_bottom_position) / 2 
-            let opacity = elementMiddle / window_middle
-            if (opacity > (1)) {
-                opacity = window_middle / elementMiddle
-            }
+            let element_middle = (element_top_position + element_bottom_position) / 2 
+            let opacityTop = window_top_position / element_top_position 
+            let opacityBottom = element_bottom_position / window_bottom_position
+            let opacity = 1
 
-            if (opacity >= (1 - 0.3) && opacity <= (1 + 0.3)) {
-                opacity = 1
+            if (element_bottom_position < window_middle && element_top_position < window_top_position) {
+                opacity = opacityBottom * opacityBottom
             }
-            if (opacity < 1) {
-                opacity = opacity * opacity * opacity
+            if (element_bottom_position > window_bottom_position && element_top_position > window_middle) {
+                opacity = opacityTop * opacityTop
             }
-            if (opacity < .3) {
-                opacity = 0
-            }
-            console.log(opacity)
+            
+            console.log(`Opacity: ${opacity}\nOpacityBottom: ${opacityBottom}\nOpacityTop: ${opacityTop}`)
             $element.css('opacity', (opacity).toString())
 
         } else {
             $element.css('opacity', '0')
         }
-    });
+    }); console.log(`\n\n\n\n\n\n\n\n----------------------------------------------------`)
 }
